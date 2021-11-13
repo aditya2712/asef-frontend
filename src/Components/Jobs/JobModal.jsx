@@ -47,20 +47,20 @@ const JobModal = () => {
             </Select>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12}>
             <FilledInput
               fullWidth
               variant="outlined"
               placeholder="Location"
             ></FilledInput>
           </Grid>
-          <Grid item xs={6}>
+          {/* <Grid item xs={6}>
             <FilledInput
               fullWidth
               variant="outlined"
               placeholder="Location"
             ></FilledInput>
-          </Grid>
+          </Grid> */}
           <Grid item fullWidth xs={12}>
             <Select variant="outlined" fullWidth defaultValue="salaryRange">
               <MenuItem value="salaryRange">Salary Range</MenuItem>
@@ -70,22 +70,22 @@ const JobModal = () => {
             </Select>
           </Grid>
 
-          <Grid item>
+          {/* <Grid item>
             <Checkbox> </Checkbox>
-          </Grid>
-          <Grid item>
+          </Grid> */}
+          {/* <Grid item>
             <Typography variant="h6" fullWidth>
               {" "}
               We will ensure the Transportation for this Employee{" "}
             </Typography>
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={6}>
+          {/* <Grid item xs={6}>
             <FilledInput fullWidth placeholder="certifications of the company " />
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={6}>
-            <FilledInput fullWidth placeholder="Job link" />
+          <Grid item xs={12}>
+            <FilledInput fullWidth placeholder="Job Application Form link" />
           </Grid>
           <Grid item xs={12}>
             <FilledInput

@@ -28,9 +28,9 @@ const SearchBar = (props) => {
          </Select>
    
          <Select variant='outlined' defaultValue="remote">
-             <MenuItem value='remote'>Remote</MenuItem>
-             <MenuItem value='inOffice'>In Office</MenuItem>
-             <MenuItem value='contract'>Contract</MenuItem>
+             <MenuItem value='remote'>20K to 30K</MenuItem>
+             <MenuItem value='inOffice'>35K to 55K</MenuItem>
+             <MenuItem value='contract'>55K to 75K</MenuItem>
          </Select>
          <Button variant='contained' style={{backgroundColor:'#001524',color:'#fff'}}> Search </Button>
        
